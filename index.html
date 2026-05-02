@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kmar Turki | DevAura</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:'Poppins', sans-serif;
+    }
+
+    body{
+      min-height:100vh;
+      background: linear-gradient(135deg,#f8fbff,#dbeafe);
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      padding:20px;
+    }
+
+    .card{
+      width:100%;
+      max-width:420px;
+      background:white;
+      border-radius:28px;
+      overflow:hidden;
+      box-shadow:0 20px 60px rgba(30,58,138,0.18);
+    }
+
+    .header{
+      background:linear-gradient(135deg,#0f172a,#1d4ed8,#2563eb);
+      color:white;
+      text-align:center;
+      padding:40px 25px;
+    }
+
+    .avatar{
+      width:90px;
+      height:90px;
+      margin:auto;
+      border-radius:50%;
+      background:white;
+      color:#1d4ed8;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-size:32px;
+      font-weight:700;
+      margin-bottom:18px;
+    }
+
+    h1{
+      font-size:1.5rem;
+      margin-bottom:6px;
+    }
+
+    .role{
+      opacity:0.9;
+      font-size:0.95rem;
+    }
+
+    .content{
+      padding:28px;
+    }
+
+    .item{
+      margin-bottom:22px;
+      padding-bottom:18px;
+      border-bottom:1px solid #e2e8f0;
+    }
+
+    .item:last-child{
+      border-bottom:none;
+      margin-bottom:0;
+    }
+
+    .label{
+      color:#1d4ed8;
+      font-size:0.9rem;
+      font-weight:600;
+      margin-bottom:8px;
+    }
+
+    .value, .value a{
+      color:#334155;
+      text-decoration:none;
+      font-size:0.95rem;
+      word-break:break-word;
+      line-height:1.7;
+    }
+
+    .website-btn{
+      display:block;
+      width:100%;
+      text-align:center;
+      background:linear-gradient(135deg,#1d4ed8,#0f172a);
+      color:white !important;
+      text-decoration:none;
+      padding:14px;
+      border-radius:14px;
+      font-weight:600;
+      margin-top:10px;
+    }
+
+    @media(max-width:480px){
+      .header{
+        padding:30px 20px;
+      }
+
+      h1{
+        font-size:1.25rem;
+      }
+
+      .content{
+        padding:22px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+
+    <div class="header">
+      <div class="avatar">KT</div>
+      <h1>Kmar Turki</h1>
+      <div class="role">Founder & CEO • DevAura</div>
+    </div>
+
+    <div class="content">
+
+      <div class="item">
+        <div class="label">LinkedIn</div>
+        <div class="value">Add your LinkedIn profile link here</div>
+      </div>
+
+      <div class="item">
+        <div class="label">Phone</div>
+        <div class="value">+216 28 700 103</div>
+      </div>
+
+      <div class="item">
+        <div class="label">Email</div>
+        <div class="value">
+          kmarturki04@gmail.com<br>
+          kmart@devaura.pro
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="label">Website</div>
+        <a class="website-btn" href="https://www.devaura.pro" target="_blank">
+          Visit DevAura
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
